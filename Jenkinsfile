@@ -24,7 +24,7 @@ pipeline {
                    bat 'docker login -u jps95 -p ${dockerhubpwd}'
 
 }
-                   bat 'docker push jps95/springboot-mongo-atlas-registration'
+                   bat 'docker push jps95/springboot-mongo-atlas-statistic'
                 }
             }
         }
